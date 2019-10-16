@@ -1,0 +1,9 @@
+LR 0x8000
+{
+    EXEC +0x0
+    {
+        *.o (+RO, +RW, +ZI)
+    }
+
+    ARM_LIB_STACKHEAP +0x0 EMPTY 0x1000 {}
+}
