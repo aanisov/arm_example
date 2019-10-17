@@ -1,0 +1,2 @@
+RESOLVE _start_exec AS Load$$EXEC$$Base
+RESOLVE _end_exec AS Load$$EXEC$$ZI$$Limit
